@@ -1,0 +1,31 @@
+// daily", "weekly", "monthly", "annual", "asNeeded
+{
+	"nat":{
+		"daily":[
+		],
+		"weekly":[
+		],
+		"monthly":[
+		],
+		"annual":[
+		],
+		"asNeeded":[
+		],
+		"oneTime":[
+		]
+
+	},
+	"ben":{
+		"daily":[
+		],
+		"weekly":[
+		],
+		"monthly":[
+		],
+		"annual":[
+		],
+		"asNeeded":[
+		]
+
+	}
+}
