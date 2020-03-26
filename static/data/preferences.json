@@ -1,0 +1,12 @@
+{
+	"nat": {
+		"showHidden": false,
+		"showCompleted": true,
+		"order": ["daily", "weekly", "monthly", "annual", "asNeeded"]
+	},
+	"ben":{
+		"showHidden": false,
+		"showCompleted": true,
+		"order": ["daily", "weekly", "monthly", "annual", "asNeeded"]
+	}
+}

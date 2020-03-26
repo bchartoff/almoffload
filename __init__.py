@@ -29,13 +29,16 @@ rootPath = "/var/www/html/semapp/"
 pyPath = "/usr/bin/python"
 # pyPath = "/usr/local/bin/python"
 
-@app.route("/upload", methods=["POST", "GET"])
-def upload():
+@app.route("/update-tasks", methods=["POST", "GET"])
+def updateTasks():
   if request.method == 'POST':
-    file = request.files['file']
-    sheet = request.args.get('sheet', '', type=str)
+    # file = request.files['file']
+    # sheet = request.args.get('sheet', '', type=str)
     # print sheet
-    file.save(rootPath + "static/data/source/" + sheet + ".xlsx")
+    # file.save(rootPath + "static/data/source/" + sheet + ".xlsx")
+    # print(request.data)
+    with open("static/data/tasks.json","wt") as out:
+      res = dump(request.json, out, sort_keys=True, indent=4, separators=(',', ': '))
 
   return ""
 

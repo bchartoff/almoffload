@@ -1,0 +1,24 @@
+{
+    "ben": {
+        "annual": [],
+        "asNeeded": [],
+        "daily": [],
+        "monthly": [],
+        "weekly": []
+    },
+    "nat": {
+        "annual": [],
+        "asNeeded": [],
+        "daily": [
+            "a",
+            "a",
+            "a",
+            "a",
+            "a",
+            "a"
+        ],
+        "monthly": [],
+        "oneTime": [],
+        "weekly": []
+    }
+}
