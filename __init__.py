@@ -33,7 +33,7 @@ pyPath = "/usr/bin/python"
 
 
 
-load_dotenv('.env')
+# load_dotenv('.env')
 
 
 # config
