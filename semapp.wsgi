@@ -4,5 +4,5 @@ logging.basicConfig(stream=sys.stderr)
 import os
 
 import sys
-sys.path.append('/var/www/html')
-from semapp import app as application
+sys.path.append('/var/www/apache2')
+from almoffload import app as application
