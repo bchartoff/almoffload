@@ -43,7 +43,7 @@ app.config.update(
     NAT_LOGIN = getenv('NAT_LOGIN'),
     BEN_LOGIN = getenv('BEN_LOGIN')
 )
-app.secret_key = getenv('SECRET_KEY')
+app.secret_key = getenv('SECRET_KEY').encode()
 
 # flask-login
 login_manager = LoginManager()
