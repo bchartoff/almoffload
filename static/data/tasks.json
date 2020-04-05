@@ -7,16 +7,10 @@
         "weekly": []
     },
     "nat": {
-        "annual": [],
-        "asNeeded": [],
-        "daily": [
-            "a",
-            "a",
-            "a",
-            "a",
-            "a",
-            "a"
+        "annual": [
         ],
+        "asNeeded": [],
+        "daily": [],
         "monthly": [],
         "oneTime": [],
         "weekly": []

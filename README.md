@@ -58,17 +58,9 @@ N organize c cloghes
 B Home maintenance checklist
 B Coordinate w handymen/contractors/gutter cleaners/arborist
 N credit card (payment/points)
+B pay marie
 
-bimonthly
-B update medicine cabinet and emergency kit
-B haircut
-N haircut
 
-trimonthly
-N luna grooming
-
-quarterly
-B Reorganize garage
 
 
 
@@ -82,7 +74,21 @@ N taxes
 N xmas gifts
 
 
+
+
+
 As needed
+bimonthly
+B update medicine cabinet and emergency kit
+B haircut
+N haircut
+
+trimonthly
+N luna grooming
+
+quarterly
+B Reorganize garage
+
 N Setting up guest room/ hosting
 N keepsakes/photos/etc
 N Gas in car

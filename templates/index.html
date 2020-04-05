@@ -1,19 +1,50 @@
-<html>
-<head>
-  <meta http-equiv="cache-control" content="no-cache"> 
-<meta http-equiv="expires" content="0"> 
-<meta http-equiv="pragma" content="no-cache">
-
-</head>
+{% extends "layout.html" %}
+{% block content %}
 <body>
-  {{name}}
+
+<div class = "settingsContainer"></div>
+ 
+ <div id = "controlContainer">
+ 	<div class = "settingsTitle">
+ 		Settings
+ 	</div>
+ 	<div class = "nameContainer nat buttonContainer">
+ 		<div class = "nat name button">
+ 			Natalie
+ 		</div>
+ 	</div>
+
+ 	<div class = "nameContainer ben buttonContainer">
+ 		<div class = "ben name button">
+ 			Ben
+ 		</div>
+ 	</div>
+
+ 	<div class = "hidden buttonContainer">
+ 		<div class = "hidden button">
+ 			hidden
+ 		</div>
+ 	</div>
+
+ 	<div class = "complete buttonContainer">
+ 		<div class = "complete button">
+ 			completed
+ 		</div>
+ 	</div>
+
+ 	<div class = "logoutLink">
+ 		<a href = "/logout">Log out</a>
+ 	</div>
+ 	
+ </div>	
 
 <script src = "static/js/vendor/moment.min.js"></script>
 <script src = "static/js/vendor/jquery.1.8.min.js"></script>
 <script src = "static/js/vendor/jquery-ui.min.js"></script>
 <script src = "static/js/vendor/d3.v5.min.js"></script>
+<script type="text/javascript">var name = "{{name}}"</script>
 <script src = "static/js/almoffload.js"></script>
 
 
 </body>
-</html>
+{% endblock %}

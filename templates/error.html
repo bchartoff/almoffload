@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+<body class = "errorPage">
+<div class = "errorContainer">
+	<div class = "errorMessage">{{error}}</div>
+	<a href = "/login"><div class = "returnLogin">Return to login page</div></a>
+</div>
+</body>
+{% endblock %}
