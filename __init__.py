@@ -39,10 +39,11 @@ load_dotenv('.env')
 # config
 app.config.update(
     DEBUG = True,
-    SECRET_KEY = getenv('SECRET_KEY'),
+    # SECRET_KEY = getenv('SECRET_KEY'),
     NAT_LOGIN = getenv('NAT_LOGIN'),
     BEN_LOGIN = getenv('BEN_LOGIN')
 )
+# print(app.config)
 
 # flask-login
 login_manager = LoginManager()
@@ -163,4 +164,5 @@ def preferences(name):
 
 if __name__ == '__main__':
   app.debug = True
+  app.secret_key = getenv('SECRET_KEY')
   app.run(threaded=True)
